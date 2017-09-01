@@ -1,0 +1,256 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    border-right: 30px solid #963901;
+    background-color: #20252a;
+}
+
+
+/*NAVBAR*/
+
+.navbar {
+    margin: 0;
+    position: fixed;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+}
+
+.navbar .container-fluid,
+.navbar .container-fluid .collapse {
+    padding: 0;
+}
+
+.navbar .container-fluid .collapse .navbar-nav {
+    float: right;
+}
+
+.navbar .container-fluid .collapse .navbar-nav .dropdown a {
+    color: #e4e1d7;
+    margin-right: 20px;
+    font-size: 18px;
+    background-color: #963901;
+}
+
+.navbar .container-fluid .collapse .navbar-nav .dropdown {
+    background-color: #963901;
+    top: 100px;
+}
+
+.navbar .container-fluid .collapse .navbar-nav .open {
+    top: 0
+}
+
+.navbar .container-fluid .collapse .navbar-nav .dropdown .dropdown-menu {
+    position: inherit;
+    border: none;
+    font-size: 24px;
+    height: 100vh;
+    background-color: #963901;
+}
+
+.navbar .container-fluid .collapse .navbar-nav .dropdown .dropdown-menu li {
+    margin-top: 27px;
+}
+
+.navbar .container-fluid .collapse .navbar-nav .open .dropdown-toggle {
+    position: absolute;
+    right: 212px;
+    top: 100px;
+    width: fit-content;
+    margin: 0;
+}
+
+.navbar .container-fluid .collapse .navbar-nav .dropdown .dropdown-menu a {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar .container-fluid .collapse .navbar-nav .dropdown .dropdown-menu a:hover {
+    text-decoration: underline;
+    color: #20252a;
+}
+
+.navbar .container-fluid .collapse .navbar-nav .dropdown .dropdown-menu a span {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+
+/*HEADER*/
+
+#header {
+    height: 100vh;
+}
+
+#header .header-main img {
+    height: 100vh;
+    display: block;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+section {}
+
+
+/*OPEN BOOK*/
+
+#book-open .book-open-main .books-content {
+    position: relative;
+}
+
+#book-open .book-open-main .books-content .link a {
+    position: absolute;
+    bottom: 30px;
+}
+
+#book-open .book-open-main .books-content img {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+#book-open .book-open-main .about-book {
+    font-size: 18px;
+    color: #d1cfc7;
+    margin: 65px 0;
+    text-align: justify;
+    line-height: 30px;
+    width: 43%;
+    display: inline-block;
+}
+
+#book-open .book-open-main .about-book p span {
+    font-size: 30px;
+}
+
+
+/*QUESTIONS*/
+
+#questions h1 {
+    font-size: 43px;
+    color: #d1cfc7;
+    width: 70%;
+    font-weight: 800;
+    margin: auto;
+    padding-bottom: 60px;
+}
+
+#questions h1 span {
+    color: #963901;
+}
+
+#questions .questions-main .questions {
+    height: 280px;
+    padding: 60px 0px 0px 50px;
+    ;
+}
+
+#questions .questions-main .questions img {
+    margin-right: 13px;
+    float: left;
+    height: 130px;
+}
+
+#questions .questions-main .questions a {
+    font-size: 24px;
+    font-weight: 800;
+    color: #d1cfc7;
+    float: left;
+    text-align: left;
+    border-left: solid 3px #d1cfc7;
+    padding-left: 13px;
+}
+
+#questions .questions-main .questions a,
+#questions .questions-main .questions a:hover {
+    text-decoration: none;
+}
+
+#questions .questions-main .question-left-main,
+#questions .questions-main .collapse .questions-content {
+    background-color: #606366;
+}
+
+#questions .questions-main .question-middle-main,
+#questions .questions-main .collapse .questions2-content {
+    background-color: #8d8e8b;
+}
+
+#questions .questions-main .question-middle-main img {
+    height: 135px;
+}
+
+#questions .questions-main .question-right-main,
+#questions .questions-main .collapse .questions3-content {
+    background-color: #963901;
+}
+
+
+/*AUTHOR*/
+
+#author .author-main {
+    padding: 0;
+}
+
+#author .author-main figure {
+    position: relative;
+}
+
+#author .author-main figure img {
+    position: relative;
+    width: 100%;
+}
+
+#author .author-main figure figcaption {
+    font-size: 14px;
+    font-weight: 800;
+    color: #d1cfc7;
+    position: absolute;
+    bottom: -1px;
+    background-color: #20252a;
+    width: 33%;
+    height: 70px;
+    text-align: right;
+    padding: 30px;
+}
+
+#author .author-main .bio p {
+    font-size: 18px;
+    color: #d1cfc7;
+    margin: 65px 0;
+    text-align: justify;
+    line-height: 26px;
+    width: 43%;
+    display: inline-block;
+}
+
+#author .author-main .bio p span {
+    font-size: 30px;
+}
+
+#author .author-main h3 span,
+#author .author-main .bio p span .bio-name {
+    color: #963901;
+}
+
+#author .author-main h3 {
+    font-size: 43px;
+    color: #d1cfc7;
+    width: 70%;
+    font-weight: 800;
+    margin: auto;
+    padding: 50px 0 180px;
+}
+
+#author .author-main .bottom-black {
+    background-color: #0b121a;
+    height: 300px;
+    width: 100%;
+    position: relative;
+}
+
+#author .author-main .bottom-black .bottom-link {
+    position: relative;
+    top: -38%;
+}
