@@ -14,6 +14,7 @@ body {
     width: 100%;
     background-color: transparent;
     border: none;
+    z-index: 1000;
 }
 
 .navbar .container-fluid,
@@ -168,12 +169,12 @@ section {}
 }
 
 #questions .questions-main .question-left-main,
-#questions .questions-main .collapse .questions-content {
+#questions .questions-main .questions-content {
     background-color: #606366;
 }
 
 #questions .questions-main .question-middle-main,
-#questions .questions-main .collapse .questions2-content {
+#questions .questions-main .questions2-content {
     background-color: #8d8e8b;
 }
 
@@ -182,7 +183,7 @@ section {}
 }
 
 #questions .questions-main .question-right-main,
-#questions .questions-main .collapse .questions3-content {
+#questions .questions-main .questions3-content {
     background-color: #963901;
 }
 
