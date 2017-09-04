@@ -14,12 +14,7 @@ body {
     width: 100%;
     background-color: transparent;
     border: none;
-    z-index: 1000;
-}
-
-.navbar .container-fluid,
-.navbar .container-fluid .collapse {
-    padding: 0;
+    z-index: 1001;
 }
 
 .navbar .container-fluid .collapse .navbar-nav {
@@ -36,6 +31,7 @@ body {
 .navbar .container-fluid .collapse .navbar-nav .dropdown {
     background-color: #963901;
     top: 100px;
+    right: -32px;
 }
 
 .navbar .container-fluid .collapse .navbar-nav .open {
@@ -67,6 +63,10 @@ body {
     font-weight: bold;
 }
 
+.navbar .container-fluid .collapse .navbar-nav .dropdown .dropdown-menu li:last-child a {
+    line-height: 15px;
+}
+
 .navbar .container-fluid .collapse .navbar-nav .dropdown .dropdown-menu a:hover {
     text-decoration: underline;
     color: #20252a;
@@ -80,12 +80,8 @@ body {
 
 /*HEADER*/
 
-#header {
-    height: 100vh;
-}
-
 #header .header-main img {
-    height: 100vh;
+    max-width: 100%;
     display: block;
     margin: auto;
     padding-bottom: 30px;
@@ -141,10 +137,14 @@ section {}
     color: #963901;
 }
 
+#questions .questions-main .row {
+    position: relative;
+}
+
 #questions .questions-main .questions {
     height: 280px;
     padding: 60px 0px 0px 50px;
-    ;
+    z-index: 1000;
 }
 
 #questions .questions-main .questions img {
@@ -168,9 +168,51 @@ section {}
     text-decoration: none;
 }
 
+#questions .questions-main h2,
+#questions .questions-main p {
+    width: 70%;
+    margin: auto;
+    text-align: justify;
+    font-size: 18px;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+#questions .questions-main h2 {
+    font-size: 30px;
+    font-weight: 800;
+    padding-top: 330px;
+    padding-bottom: 0px;
+}
+
+#questions .questions-main #close1,
+#questions .questions-main #close2,
+#questions .questions-main #close3 {
+    position: absolute;
+    left: 0;
+    bottom: 90px;
+    color: #20252a;
+    background-color: inherit;
+    width: 33%;
+    height: 70px;
+    text-align: right;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 800;
+   
+}
+
+#questions .questions-main .glyphicon {
+    font-size: 25px;
+    border-left: solid 2px;
+    padding-left: 8px;
+    margin-left: 8px;
+}
+
 #questions .questions-main .question-left-main,
 #questions .questions-main .questions-content {
     background-color: #606366;
+    color: #d1cfc7;
 }
 
 #questions .questions-main .question-middle-main,
@@ -185,6 +227,12 @@ section {}
 #questions .questions-main .question-right-main,
 #questions .questions-main .questions3-content {
     background-color: #963901;
+}
+
+#questions .questions-main #content1,
+#questions .questions-main #content2,
+#questions .questions-main #content3 {
+    margin-bottom: 160px;
 }
 
 
