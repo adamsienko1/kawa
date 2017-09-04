@@ -100,7 +100,7 @@
                             display: none;
                         }
                         #questions .questions-main .questions span {
-                            font-size: 20px;
+                            font-size: 18px;
                             font-weight: 800;
                             color: #d1cfc7;
                             float: left;
@@ -109,10 +109,10 @@
                             padding-left: 13px;
                         }
                         #questions .questions-main .questions img {
-                            height: 115px;
+                            height: 100px;
                         }
                         #questions .questions-main .questions figure {
-                            left: 28%;
+                            left: 22%;
                         }
                         #author .author-main figure figcaption {
                             font-size: 8px;
