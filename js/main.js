@@ -29,4 +29,24 @@ $(function () {
         $('#content3').slideUp(0);
     });
 
+
+    $("a").on('click', function (event) {
+        if (this.hash !== "") {
+            event.preventDefault();
+
+            var hash = this.hash;
+
+            $('html, body').animate({
+                scrollTop: $(hash).offset().top
+            }, 800, function () {
+                window.location.hash = hash;
+            });
+        }
+    });
+
+    $('.nav a').click(function () {
+        $('.navbar-collapse').collapse('hide');
+    });
+
+
 });
