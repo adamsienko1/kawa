@@ -1,70 +1,133 @@
-            @media all and (max-width: 1200px) {
-                #questions .questions-main .questions a {
-                    font-size: 20px;
-                }
-                #questions .questions-main .questions img {
-                    height: 115px;
-                }
-                #questions .questions-main .questions {
-                    height: 245px;
-                    padding: 60px 0px 0px 45px;
-                }
-            }
-            
-            @media all and (max-width: 992px) {
-                #questions .questions-main .questions a {
-                    font-size: 17px;
-                }
-                #questions .questions-main .questions img {
-                    height: 95px;
-                }
-                #questions .questions-main .questions {
-                    height: 215px;
-                    padding: 50px 0px 0px 11px;
-                }
-            }
-            
-            @media all and (min-width: 768px) {
-                .navbar .container-fluid .navbar-collapse .navbar-small {
-                    display: none;
-                }
-            }
-            
-            @media all and (max-width: 768px) {
-                body {
-                    border-right: none;
-                }
-                .navbar {
-                    background-color: #963901;
-                }
-                .navbar .navbar-header {
-                    margin-left: 15px;
-                }
-                .navbar .navbar-header .navbar-toggle {
-                    float: left;
-                    border: none;
-                }
-                .navbar .navbar-header .navbar-toggle span {
-                    width: 40px;
-                    height: 6px;
-                    background-color: #e4e1d7;
-                }
-                .navbar-default .navbar-toggle:hover {
-                    background-color: transparent;
-                }
-                .navbar-default .navbar-collapse {
-                    border: none;
-                    box-shadow: none;
-                    float: left;
-                    text-align: left;
-                    margin-left: 8px;
-                }
-                .navbar-default .navbar-collapse .navbar-small li a {
-                    color: #e4e1d7;
-                    font-weight: 800;
-                    font-size: 22px;
-                }
-                .navbar-default .navbar-collapse .navbar-small li:last-child a {
-                    font-size: 12px;
-                }
-            }
+                    @media all and (max-width: 1200px) {
+                        #questions .questions-main .questions a {
+                            font-size: 20px;
+                        }
+                        #questions .questions-main .questions img {
+                            height: 115px;
+                        }
+                        #questions .questions-main .questions {
+                            height: 245px;
+                        }
+                        #questions .questions-main .questions figure {
+                            left: 15%;
+                        }
+                    }
+                    
+                    @media all and (max-width: 992px) {
+                        #book-open .book-open-main .about-book {
+                            width: 70%;
+                        }
+                        #questions .questions-main .questions a {
+                            font-size: 17px;
+                        }
+                        #questions .questions-main .questions img {
+                            height: 95px;
+                        }
+                        #questions .questions-main .questions {
+                            height: 215px;
+                        }
+                        #questions .questions-main .questions figure {
+                            left: 5%;
+                        }
+                        #author .author-main .bio p {
+                            width: 70%;
+                        }
+                    }
+                    
+                    @media all and (min-width: 768px) {
+                        .navbar .container-fluid .navbar-collapse .navbar-small {
+                            display: none;
+                        }
+                        #questions .questions-main .questions span {
+                            display: none;
+                        }
+                    }
+                    
+                    @media all and (max-width: 768px) {
+                        body {
+                            border-right: none;
+                        }
+                        .navbar {
+                            background-color: #963901;
+                        }
+                        .navbar .navbar-header {
+                            margin-left: 15px;
+                        }
+                        .navbar .navbar-header .navbar-toggle {
+                            float: left;
+                            border: none;
+                        }
+                        .navbar .navbar-header .navbar-toggle span {
+                            width: 40px;
+                            height: 6px;
+                            background-color: #e4e1d7;
+                        }
+                        .navbar-default .navbar-toggle:hover {
+                            background-color: transparent;
+                        }
+                        .navbar-default .navbar-collapse {
+                            border: none;
+                            box-shadow: none;
+                            float: left;
+                            text-align: left;
+                            margin-left: 8px;
+                        }
+                        .navbar-default .navbar-collapse .navbar-small li a {
+                            color: #e4e1d7;
+                            font-weight: 800;
+                            font-size: 22px;
+                        }
+                        .navbar-default .navbar-collapse .navbar-small li:last-child a {
+                            font-size: 12px;
+                        }
+                        #book-open .book-open-main .books-content a img {
+                            width: 115px;
+                        }
+                        #book-open .book-open-main .about-book {
+                            font-size: 10px;
+                            width: 70%;
+                            line-height: 20px;
+                            margin: 20px 0;
+                        }
+                        #book-open .book-open-main .about-book p span {
+                            font-size: 16px;
+                        }
+                        #questions h1 {
+                            font-size: 20px;
+                            padding-bottom: 30px;
+                        }
+                        #questions .questions-main .questions a {
+                            display: none;
+                        }
+                        #questions .questions-main .questions span {
+                            font-size: 20px;
+                            font-weight: 800;
+                            color: #d1cfc7;
+                            float: left;
+                            text-align: left;
+                            border-left: solid 3px #d1cfc7;
+                            padding-left: 13px;
+                        }
+                        #questions .questions-main .questions img {
+                            height: 115px;
+                        }
+                        #questions .questions-main .questions figure {
+                            left: 20%;
+                        }
+                        #author .author-main figure figcaption {
+                            font-size: 8px;
+                        }
+                        #author .author-main .bio p {
+                            font-size: 10px;
+                            width: 70%;
+                            line-height: 20px;
+                            margin: 30px 0;
+                        }
+                        #author .author-main .bio p span {
+                            font-size: 14px;
+                        }
+                        #author .author-main h3 {
+                            font-size: 18px;
+                            padding: 30px 0 150px;
+                        }
+                    }
